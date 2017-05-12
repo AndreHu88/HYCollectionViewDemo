@@ -10,6 +10,11 @@
 
 @interface ViewController : UIViewController
 
+/** 是否编辑*/
+@property (nonatomic,assign) BOOL isEditing;
+
+/** 动画View */
+@property (nonatomic,strong) UIView *snapShotView;
 
 @end
 

@@ -13,6 +13,10 @@
 		4D615E511EC4323100008C52 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D615E4F1EC4323100008C52 /* Main.storyboard */; };
 		4D615E531EC4323100008C52 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D615E521EC4323100008C52 /* Assets.xcassets */; };
 		4D615E561EC4323100008C52 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D615E541EC4323100008C52 /* LaunchScreen.storyboard */; };
+		4D615E5F1EC44A3200008C52 /* HYCustomCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D615E5E1EC44A3200008C52 /* HYCustomCollectionViewCell.m */; };
+		4D615E621EC44F2600008C52 /* HYItemModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D615E611EC44F2600008C52 /* HYItemModel.m */; };
+		4D615E651EC4555200008C52 /* HYGroupModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D615E641EC4555200008C52 /* HYGroupModel.m */; };
+		4D615E681EC4816700008C52 /* HYHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D615E671EC4816700008C52 /* HYHeaderView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,14 @@
 		4D615E521EC4323100008C52 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4D615E551EC4323100008C52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4D615E571EC4323100008C52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D615E5D1EC44A3200008C52 /* HYCustomCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYCustomCollectionViewCell.h; sourceTree = "<group>"; };
+		4D615E5E1EC44A3200008C52 /* HYCustomCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYCustomCollectionViewCell.m; sourceTree = "<group>"; };
+		4D615E601EC44F2600008C52 /* HYItemModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYItemModel.h; sourceTree = "<group>"; };
+		4D615E611EC44F2600008C52 /* HYItemModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYItemModel.m; sourceTree = "<group>"; };
+		4D615E631EC4555200008C52 /* HYGroupModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYGroupModel.h; sourceTree = "<group>"; };
+		4D615E641EC4555200008C52 /* HYGroupModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYGroupModel.m; sourceTree = "<group>"; };
+		4D615E661EC4816700008C52 /* HYHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYHeaderView.h; sourceTree = "<group>"; };
+		4D615E671EC4816700008C52 /* HYHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYHeaderView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +74,14 @@
 				4D615E4A1EC4323100008C52 /* AppDelegate.m */,
 				4D615E4C1EC4323100008C52 /* ViewController.h */,
 				4D615E4D1EC4323100008C52 /* ViewController.m */,
+				4D615E5D1EC44A3200008C52 /* HYCustomCollectionViewCell.h */,
+				4D615E5E1EC44A3200008C52 /* HYCustomCollectionViewCell.m */,
+				4D615E661EC4816700008C52 /* HYHeaderView.h */,
+				4D615E671EC4816700008C52 /* HYHeaderView.m */,
+				4D615E601EC44F2600008C52 /* HYItemModel.h */,
+				4D615E611EC44F2600008C52 /* HYItemModel.m */,
+				4D615E631EC4555200008C52 /* HYGroupModel.h */,
+				4D615E641EC4555200008C52 /* HYGroupModel.m */,
 				4D615E4F1EC4323100008C52 /* Main.storyboard */,
 				4D615E521EC4323100008C52 /* Assets.xcassets */,
 				4D615E541EC4323100008C52 /* LaunchScreen.storyboard */,
@@ -110,6 +130,7 @@
 				TargetAttributes = {
 					4D615E421EC4323100008C52 = {
 						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 535U5FWNZ7;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -152,6 +173,10 @@
 			files = (
 				4D615E4E1EC4323100008C52 /* ViewController.m in Sources */,
 				4D615E4B1EC4323100008C52 /* AppDelegate.m in Sources */,
+				4D615E621EC44F2600008C52 /* HYItemModel.m in Sources */,
+				4D615E5F1EC44A3200008C52 /* HYCustomCollectionViewCell.m in Sources */,
+				4D615E681EC4816700008C52 /* HYHeaderView.m in Sources */,
+				4D615E651EC4555200008C52 /* HYGroupModel.m in Sources */,
 				4D615E481EC4323100008C52 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -274,6 +299,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 535U5FWNZ7;
 				INFOPLIST_FILE = CollectionViewDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.leimo.CollectionViewDemo;
@@ -285,6 +311,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 535U5FWNZ7;
 				INFOPLIST_FILE = CollectionViewDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.leimo.CollectionViewDemo;
@@ -311,6 +338,7 @@
 				4D615E5C1EC4323100008C52 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
